@@ -1647,38 +1647,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13ve/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100 \
     vendor/samsung/a13ve/proprietary/vendor/vendor_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/vendor_dlkm/etc/NOTICE.xml.gz \
     vendor/samsung/a13ve/proprietary/vendor/vendor_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/vendor_dlkm/etc/build.prop
-
-PRODUCT_PACKAGES += \
-    ImsSettings \
-    ImsSettings.apk \
-    GoogleTetheringResOverlay \
-    InProcessTetheringResOverlay \
-    TetheringResOverlay \
-    CarrierConfig \
-    DckTimeSyncService \
-    EmergencyInfo \
-    GoogleFeedback \
-    GoogleServicesFramework \
-    SetupWizard \
-    StorageManager \
-    SystemUI \
-    WallpaperCropper \
-    org.carconnectivity.android.digitalkey.timesync \
-    android.hardware.health@2.1-samsung \
-    android.hardware.sensors@2.0-multihal \
-    android.hardware.wifi.hostapd \
-    android.hardware.wifi.supplicant \
-    android.hardware.wifi@1.0-service \
-    manifest_android.hardware.drm@1.4-service.clearkey \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_vendor.samsung.hardware.security.widevine.keyprov@1.0-service \
-    nxp.android.hardware.nfc@1.2-service \
-    vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
-    vendor.samsung.hardware.hqm@1.0-manifest \
-    vendor.samsung.hardware.snap-default \
-    vendor.samsung.hardware.thermal@1.0-manifest \
-    vendor.samsung.hardware.tlc.iccc@1.0-manifest \
-    vendor.samsung.hardware.tlc.kg@1.1-manifest \
-    vendor.samsung.hardware.vibrator-default \
-    vendor.samsung.hardware.wifi.hostapd \
-    vendor.samsung.hardware.wifi@2.0-service
